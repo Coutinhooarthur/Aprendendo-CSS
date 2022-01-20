@@ -6,11 +6,26 @@
     <title>CSS Selectors</title>
     <link rel="stylesheet" href="css/tag.css">
     <style>
-        /* ... */
+        section > :nth-child(odd), ol, p{
+            color: #ff0;
+            background-color: #f77;
+        }
+        .link{
+            display: inline-block;
+            text-align: center;
+        }
+        button{
+            background-color:rgb(203, 250, 234);
+        }
     </style>
 </head>
 
 <body>
+
+    <button type="button">
+    <a class="link" href ="https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors"> Página seletores </a>
+    </button>
+
     <div class='tag'>
         <div class='tag'>
             <p class='tag'>1</p>
