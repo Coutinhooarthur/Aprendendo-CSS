@@ -1,0 +1,115 @@
+body{
+    background-color: rgb(218, 216, 216);
+    margin: 0px;
+    padding: 0px 0px;
+    font-family: Oswald;
+}
+
+.cabecalho{
+    text-decoration: none;
+    border-bottom: solid 3px cadetblue; 
+    background-color: rgb(83, 85, 85);
+}
+
+.logo{
+    display: inline-block;
+    height: 60px;   
+    padding: 15px;
+}
+
+.logo img{
+    height: 100%;
+}
+
+.menu-toggle{
+    float: right;
+    padding: 10px 15px;
+    color: #eee;
+    background-color: #555;
+    border: solid 1px rgb(110, 112, 112) ;
+    border-radius: 5px;
+    height: 40px;
+    cursor: pointer;
+    margin: 20px 15px;
+}
+
+.menu{
+    font-size: 20px;
+    color: #eee;
+    display: inline-block;
+    vertical-align: top;
+    height: 80px;
+    padding: 5px 10px;
+}
+
+.menu ul{
+    margin: 0%;
+    padding: 25px 25px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu a {
+    padding: 15px 10px;
+}
+
+.autenticacao{
+   float: right;
+   padding: 30px 35px;
+   height: 80px;
+   /* vertical-align: top; */
+   /* font-size: 20px; */
+}
+
+.autenticacao a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.login {
+    color: #fff;
+}
+
+.botao {
+    background-color: red;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+.destaque {
+    color: #eee;
+    margin: 5px;
+}
+
+.menu a:hover,
+.menu a.selected{
+    background-color: cadetblue;
+    padding: 15px;
+    color: #000;
+}
+
+a {
+    color: #eee;
+    text-decoration: none;
+}
+
+
+@media (min-width : 679px ){
+    .menu-toggle{ 
+        display: none;
+    }
+}
+
+@media (max-width: 680px){
+    .menu {
+        display: none;
+    }
+}
+
+@media(max-width : 910px){
+    .autenticacao{
+        display: none;
+    }
+}
