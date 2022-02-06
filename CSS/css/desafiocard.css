@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.curso{
+    top: 50px;
+    bottom: 300px;
+    height: 350px;
+    width: 280px;
+    background-color: #eee;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    margin: 15px;
+    box-shadow: rgb(180, 179, 179) 2px 1px 4px 2px;
+    align-items: center;
+    padding: 5px;
+}
+
+.curso img{
+    position: relative;
+    margin: auto;
+    top: 2px;
+    width: 270px;
+    height: 180px;
+}
+
+.curso-info {
+    position: absolute;
+    top: 200px;
+    padding: 5px 10px;
+    font-family: 'Trebuchet MS';
+}
+
+.curso-preco{
+    position: absolute;
+    top: 310px;
+    left:100px;
+    padding: 5px 10px;
+}
+
+h4{
+    font-size: 1.4em;
+}
+
+    e{
+    color: red;
+    text-decoration: line-through 1px;
+    font-size: 1.1em;
+}
+
+.preco-por{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+p {
+    position: absolute;
+    top: 70px;
+    /* overflow: hidden; */
+}
